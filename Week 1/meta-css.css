@@ -18,3 +18,12 @@ hr{
     background-color: #035f9c;
     width:80%;
 }
+h1,h2,p{
+    text-align: center;
+}
+
+img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
