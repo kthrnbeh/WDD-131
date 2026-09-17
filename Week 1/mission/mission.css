@@ -33,12 +33,21 @@ hr{
     border:0;
     border-top: 1px solid #ddd;
 }
-p{
+p.mission-statement{
     font-size: 16px;
     line-height: 1.5em;
     margin: 0 auto 20px;
     text-align: center;
+    padding: 80px 160px 55px;
 }
+p.university-does-this{
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0 auto 20px;
+    text-align: center;
+    padding: 80px 160px 55px;
+}
+
 ol,li{
     text-align: center;
 }
