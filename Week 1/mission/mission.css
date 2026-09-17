@@ -8,24 +8,22 @@ body{
      box-sizing: border-box;
 }
 h1,h2{
-    text-align: center;
-    margin-top:50px; 
+    text-align: center; 
     font-family: 'Times New Roman', Times, serif;
 }
 h1{
-    font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;   
     font-weight: 400;
     letter-spacing: 2px;
-
+    margin: 20px 0;
     
 }
 h2{
     color: #006EB6;
     font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     letter-spacing: 4px;
+    margin: 15px;px;
 }
 hr{
     width: 600px;
