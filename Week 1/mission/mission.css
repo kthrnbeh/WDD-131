@@ -1,13 +1,35 @@
+* {
+  box-sizing: border-box;
+}
 body{
     font-size: 16px;
      max-width: 922px;
      margin: 0 auto;
+     border: 1px solid darkgray;
+     padding 80px, 160px, 55px;
 }
 h1{
+    font-size: 40px;
     text-align: center;
     margin-top: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     letter-spacing: 2px;
+
     
+}
+h2{
+    color: #006EB6;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+hr{
+    width: 60%;
+    margin: 4px auto 48px;
+    border:0;
+    border-top: 1px solid #ddd;
 }
