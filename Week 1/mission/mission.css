@@ -1,12 +1,13 @@
 
 body{
     font-size: 16px;
-     max-width: 922px;
-     margin: 0 auto;
+     max-width: 820px;
+     margin: 70px auto;
      border: 1px solid darkgray;
-     padding 80px, 160px, 55px;
+     padding 55px 140px;
+     box-sizing: border-box;
 }
-h1,h2,p{
+h1,h2{
     text-align: center;
     margin-top:50px; 
     font-family: 'Times New Roman', Times, serif;
@@ -35,7 +36,7 @@ hr{
 p,
 li {
   font-family: "Times New Roman", Times, serif;
-  font-weight: 400;
+  
 }
 p.mission-statement{
     font-size: 16px;
@@ -45,7 +46,7 @@ p.mission-statement{
 p.university-does-this{
     font-size: 16px;
     line-height: 1.5em;
-    padding: 300px 160px 55px;
+    padding: 80px 160px 55px;
 }
 
 ol,li{
