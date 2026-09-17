@@ -48,8 +48,14 @@ p.university-does-this{
      margin: 0 0 15px;
 }
 
-ol,li{
-    text-align: center;
+ol{
+    padding-left: 35px;
+    margin:0;
+}
+il{
+    text-align: left;
+    margin-bottom:20px;
+    padding 2px;
 }
 footer{
     text-align: center;
