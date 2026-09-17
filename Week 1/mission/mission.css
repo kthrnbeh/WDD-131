@@ -36,17 +36,16 @@ main{
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   line-height: 1.5em;
-  
+  text-align: center;
 }
 p.mission-statement{
     
-    line-height: 1.5em;
-    padding: 80px 160px 55px;
+     margin: 0 0 20px;
 }
 p.university-does-this{
     
-    line-height: 1.5em;
-    padding: 80px 160px 55px;
+    
+     margin: 0 0 15px;
 }
 
 ol,li{
