@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 50px 44px;
+  color: #000;
+  font-family: Georgia, "Times New Roman", serif;
+  background: #fff;
+}
+
+.mission {
+  max-width: 922px;
+  min-height: 884px;
+  margin: 0 auto;
+  padding: 82px 159px 55px;
+  border: 1px solid #aaa;
+}
+
+.mission-header {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.university {
+  margin: 22px 0 0;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ddd;
+  color: #0874c9;
+  font-size: 16px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.mission-content {
+  margin-top: 49px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.mission-content p {
+  margin: 0 0 22px;
+}
+
+.introduction {
+  margin-top: 16px !important;
+  font-style: italic;
+}
+
+ol {
+  margin: 18px 0 0;
+  padding-left: 40px;
+}
+
+li {
+  padding-left: 1px;
+  margin-bottom: 22px;
+}
+
+.logo {
+  margin-top: 48px;
+  color: #316eb5;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.logo span {
+  display: block;
+}
+
+.logo span:first-child {
+  font-family: Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 0.85;
+}
+
+.logo span:last-child {
+  width: 126px;
+  margin: 5px auto 0;
+  padding-top: 4px;
+  border-top: 1px solid #316eb5;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 700px) {
+  body {
+    padding: 20px;
+  }
+
+  .mission {
+    min-height: auto;
+    padding: 45px 30px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .university {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  .mission-content {
+    font-size: 18px;
+  }
+}
