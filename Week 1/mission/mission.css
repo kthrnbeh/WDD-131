@@ -33,6 +33,15 @@ hr{
     border:0;
     border-top: 1px solid #ddd;
 }
+p{
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+ol,li{
+    text-align: center;
+}
 footer{
     text-align: center;
 }
